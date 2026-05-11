@@ -38,9 +38,9 @@ public class MainApp {
                         people[count] = new Student(sname, sage, roll, course);
                         count++;
                         School.increaseCount();
-                        System.out.println("✅ Student added successfully!");
+                        System.out.println(" Student added successfully!");
                     } else {
-                        System.out.println("❌ No more space to add persons.");
+                        System.out.println(" No more space to add persons.");
                     }
                     break;
 
@@ -59,9 +59,9 @@ public class MainApp {
                         people[count] = new Teacher(tname, tage, subject, salary);
                         count++;
                         School.increaseCount();
-                        System.out.println("✅ Teacher added successfully!");
+                        System.out.println(" Teacher added successfully!");
                     } else {
-                        System.out.println("❌ No more space to add persons.");
+                        System.out.println(" No more space to add persons.");
                     }
                     break;
 
@@ -82,12 +82,12 @@ public class MainApp {
                     break;
 
                 case 5:
-                    System.out.println("👋 Exiting System... Goodbye!");
+                    System.out.println(" Exiting System... Goodbye!");
                     System.exit(0);
                     break;
 
                 default:
-                    System.out.println("❌ Invalid choice. Try again!");
+                    System.out.println(" Invalid choice. Try again!");
             }
 	            
 		 }
